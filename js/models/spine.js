@@ -106,11 +106,6 @@ ReadiumSDK.Models.Spine = Backbone.Model.extend({
 
     },
 
-    isValidIndex: function(index) {
-
-        return index >= 0 && index < this.items.length;
-    },
-
     first: function() {
         return this.items[0];
     },
